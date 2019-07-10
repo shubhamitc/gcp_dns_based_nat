@@ -1,0 +1,37 @@
+{
+        "nat-vm-1": [
+            {
+                "dns_ip_subnet": "yahoo.com",
+                "ext_public_ip": "65.49.33.90",
+                "policy": "p1",
+                "tags": ["http-server"],
+                "network": "https://www.googleapis.com/compute/v1/projects/premium-poc/global/networks/vuclip-poc",
+                "zone": "asia-east1-a",
+                "priority": "20000"
+            },
+            {
+                "dns_ip_subnet": "api.sla-alacrity.com",
+                "ext_public_ip": "65.49.33.70",
+                "policy": "p1",
+                "tags": ["http-server"],
+                "network": "https://www.googleapis.com/compute/v1/projects/premium-poc/global/networks/vuclip-poc",
+                "zone": "asia-east1-a",
+                "priority": "20000"
+            },
+            {
+                "dns_ip_subnet": "google.com",
+                "ext_public_ip": "65.49.33.90",
+                "policy": "p2",
+                "tags": ["https-server"],
+                "network": "https://www.googleapis.com/compute/v1/projects/premium-poc/global/networks/vuclip-poc",
+                "zone": "asia-east1-a",
+                "priority": "20000"
+            },
+        ],
+        "client1": {
+                "id": "2212fw1",
+                "name": "Papupapa Hernandez",
+                "email": "papupapa@gmail.com",
+                "phones": ["554-223-2311", "332-232-2123"]
+        }
+    }
